@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div id="main">
+
+<div class="cynthia">
+
+<p><h1>Hello, I'm Cynthia.</h1></p>
+
+</div>
+
+
+</div>
+
+
+<!-- <div class="nav">
+
+<a class="callout" href="https://static1.squarespace.com/static/52788d22e4b012c43beac243/t/5567f2f4e4b0f3550bf66ee5/1432875764276/Cynthia+Wong+Resume+2015.pdf">Resume</a> | 
+
+<a class="callout" href="mailto:cynhowong@gmail.com">Contact</a></div>
+
+</div> -->
+
+<div class="main">
+
+<div class="about-me"></h2>
+
+<h2>from political science</h2>
+
+<p>I graduated from the University of Washington with a B.A. in Political Science. While I was still in the program, my goal was to join the foreign service or the United Nations to change the world. That didn't happen...quite yet.</p>
+
+<p>Growing up, my dad has always reinforced the importance of remaining openminded which propelled me to find a passion in a wide array of things. It also fueled my desire to experiment with a wide array of things. </p>
+
+<h2>to graphic design</h2>
+
+<p>My experiences in graphic design were self-motivated. It was back in the 2000s when graphic challenges used to be a huge deal. I taught myself the necessary skills to design some great stuff and eventually lended my skills to mainly student organizations. Before college, I have always wanted to become a graphic designer or simply an artist (whatever they means, really). To be honest, my journey has just begun.
+
+<p>I have recently completed the part-time UX Design course at General Assembly, an 8-week course that teaches me the basic and necessary skills about UX design. I also work as a full-time Shift Supervisor at Starbucks, delivering the best possible customer service. I am currently the Director of Design for the <a href="http://ubcmun.org">University of British Columbia Model United Nations 2016</a>.</p>
+
+<h2>coffee and beer</h2>
+
+<p>When I'm not working, I enjoy coffee, beer and a good book. A good Porter always brightens up the day. I spend too much time on Spotify or Pitchfork discovering new music, I promise myself that one day, I'd continue my dad's legacy to complete a cross-country road trip on my own. My goal is to shake Dan Auerbach's hand and tell him how much I love <a href="http://www.theblackkeys.com/">The Black Keys</a>. (Y) </p>
+
+</div>
+
+<!-- contact me section (right) -->
+
+<div class="contact-me">
+
+<p align=center><img src="port.png"></p>
+
+<h2 id="contact">contact</h2>
+
+<p align="center"><a class="callout" href="https://static1.squarespace.com/static/52788d22e4b012c43beac243/t/5567f2f4e4b0f3550bf66ee5/1432875764276/Cynthia+Wong+Resume+2015.pdf">Resume</a></p>
+
+<p align=center><a class="callout" href="mailto:cynhowong@gmail.com">Email</a></p>
+
+<p align=center><a class="callout" href="http://soundcloud.com/cynhw">SoundCloud</a></p>
+
+<p align=center><a class="callout" href="http://cynhw.com">Portfolio</a></p>
+
+
+<div class="current">
+<p><h2>current project:</h2></p>
+</div>
+	
+<div id="ubc">
+<img src="ubcmun 2016.jpg">
+<div id="popup" align="center" style="display: none">After taking the General Assembly Course on UX Design, I have decided to apply some of those skills by designing the UBCMUN 2016 website for the upcoming conference. Visit the website <a href="http://ubcmun.org">here</a>.</div>
+</div>
+<p class="link">&uarr; See more at my portfolio, see above.</p>
+
+</div></div>
+
+
+<!-- <p class="ubcmun" align=center><img src="ubcmun 2016.jpg"></p>
+<div class="box"><ubcmun>Since August, 2015, I have been designing the UBCMUN 2016 conference. Visit the website <a href="http://ubcmun.org">here</a>. </ubcmun>
+	<br>(click to close)</div> -->
+
+</div>
+
+</div>
+
+</div>
+
+<div class="callout-sm">
+
+<h2>get in touch:</h2>
+
+<p align="center"><a class="callout-sm" href="https://static1.squarespace.com/static/52788d22e4b012c43beac243/t/5567f2f4e4b0f3550bf66ee5/1432875764276/Cynthia+Wong+Resume+2015.pdf">Resume</a> | <a class="callout-sm" href="mailto:cynhowong@gmail.com">Contact</a> | <a class="callout-sm" href="http://soundcloud.com/cynhw">SoundCloud</a></p>
+
+</div></div></div>
+
+<div class="footer">
+
+<div class="footer">
+<a class="social-media" href="https://www.facebook.com/cynhw">
+	<img src="1.png"></a>
+<a class="social-media" href="https://www.linkedin.com/in/cynhwong">
+	<img src="20.png"></a>
+
+<p>Made with &hearts; in the 206.</p>
+
+</div></div>
+
+<!-- random header image -->
+
+<script>
+var num = (Math.floor(Math.random()*4));
+
+
+var array = ['one', 'two', 'three', 'four'];
+
+var elem = document.getElementById('main');
+
+elem.classList.add(array[num]);
+
+</script>
+
+<script>
+$(document).ready(function(){
+    $("p.ubcmun").click(function(){
+        $(".box").fadeIn()
+    });
+
+    $(".box").click(function(){
+        $(".box").fadeOut();
+    });
+});
+</script> 
+
+<script>
+var e = document.getElementById('ubc');
+e.onmouseover = function() {
+  document.getElementById('popup').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('popup').style.display = 'none';
+}
+</script>
+
+
+</body> 
+</html>
